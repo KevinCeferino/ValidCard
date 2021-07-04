@@ -1,0 +1,82 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+ 
+/*======CONTAINER====*/
+.container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.validate{
+    display: flex;
+  flex-flow: column;
+  background-color: #bebebe;
+  width: 40vw;
+  height: 80vh;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+
+h1{  
+ text-align: center;
+ color:aliceblue; 
+}
+.form {  
+    display: flex;
+  flex-flow: column;
+  background-color: #bebebe;
+  width: 40%;
+  height: 80%;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+ 
+}
+
+
+input{
+
+border: none;  
+resize: none;
+outline: none;
+padding: 10px 0px;
+border-radius: 10px;
+width: 80%;
+margin: 20px;
+}
+
+.error{
+    border: red;
+    border-radius: 20px;
+}
+input{
+    text-align: center;
+}
+input::placeholder{
+    text-align: center;
+}
+
+.foto{
+    width: 100px;
+    margin: 0px auto;
+}
+
+button{
+    background-color: rgb(231, 225, 225);
+    padding: 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: rgb(204, 47, 47);
+    
+}
+.list {  
+  text-align-last: right;
+}

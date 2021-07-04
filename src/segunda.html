@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesecond.css">
+    <title>pago tarjeta</title>
+    
+</head>
+
+<body>
+ <header>
+ <div class="list">
+ <div>
+<nav>
+  <a href="#">Home</a>
+  <a href="#">Shop</a>
+  <a href="#">Blog</a>
+</nav>
+ </div>
+ </div>
+ </header>
+ 
+ <div class="container" id="container">    
+    <div class="form">
+        <h1>Pay</h1>
+        <img class="foto" src="./imagenes/credit card.png" alt="imagen 1">
+            <input placeholder="Card Number" type="number" min="0" class="form-control" id="cardNumber" name="tar">
+            <p id="cardValid"></p>
+            <input placeholder="Full Name" type="text" class="form-controlsecond" id="owner" name="nam">
+            <p id="nameValid"></p>
+            <input placeholder="CVC" type="number" min="0" class="form-controlthird" id="cvc" name="cvc">
+            <p id="cvcValid"></p>
+            <input type="text" class="form-controlthird" id="expiration" placeholder="mm/yy" name="date">
+            <p id="expirationValid"></p>
+            <button id="btnGo">Go</button>           
+    </div>
+    <!-- <script src="script.js"></script> -->
+ </div>
+    
+
+<script src="./index.js" type="module"></script>
+</body>
+</html>
+
